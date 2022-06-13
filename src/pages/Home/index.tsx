@@ -26,14 +26,24 @@ export function Home() {
             <div> Carreira </div>
           </Grid>
           <Grid item md={6}>
-            <div> Sol </div>
+            <C.ThemeSet className="theme"> Sol </C.ThemeSet>
           </Grid>
         </Grid>
       </C.Header>
       <C.Section>
         Keyword
       </C.Section>
+      <Grid container>
+      <Grid item md={4}>
       <PostCard />
+      </Grid>
+      <Grid item md={4}>
+      <PostCard />
+      </Grid>      
+      <Grid item md={4}>
+      <PostCard />
+      </Grid>
+      </Grid>
     </C.Container>
   );
 }
