@@ -42,17 +42,7 @@ export function Home() {
         </Grid>
       </C.Header>
       <C.Section>Keyword</C.Section>
-      <Grid container marginTop={10}>
-        <Grid item md={4}>
-          <PostCard />
-        </Grid>
-        <Grid item md={4}>
-          <PostCard />
-        </Grid>
-        <Grid item md={4}>
-          <PostCard />
-        </Grid>
-      </Grid>
+      <PostCard/>
     </C.Container>
   );
 }
